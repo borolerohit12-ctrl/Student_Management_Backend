@@ -1,0 +1,16 @@
+FSJP ASSIGNMENT-2 - QUICK START
+
+1. Install Java 17+, Maven, MySQL Server, and Postman.
+2. Open MySQL Workbench and run database.sql.
+3. Edit src/main/resources/application.properties and set your MySQL username/password.
+4. Open a terminal in this folder and run: mvn spring-boot:run
+5. Import postman/Student_Management_API.postman_collection.json into Postman.
+6. Run Register User, then Login User, then the student requests in order.
+7. Capture real Postman screenshots for the report.
+8. Upload this project to your own GitHub repository and add that link to the report.
+
+Important:
+- Sample login: rohit_test / Testpass123!
+- Change the database credentials if root/root is not your MySQL setup.
+- The JWT secret is only for local educational practice.
+- A real GitHub link and actual Postman screenshots still need to be added after you run the project.
